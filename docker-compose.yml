@@ -1,0 +1,10 @@
+services:
+  unbound:
+    build: .
+    volumes:
+      - ./unbound.conf:/etc/config/unbound.conf
+      - ./blocklist:/etc/config/blocklist
+      - ./resolv.conf:/etc/resolv.conf
+    ports:
+      - "53:53/udp"
+    restart: unless-stopped
