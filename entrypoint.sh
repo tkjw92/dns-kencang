@@ -14,8 +14,11 @@ chown -R unbound:unbound /etc/unbound
 if [ -f "/etc/config/blocklist" ] && [ -f "/etc/config/unbound.conf" ]; then
 
 	tmpfile=$(mktemp)
-	while read -r line; do
-		echo "local-zone: \"$line\" refuse" >>"$tmpfile"
+	while IFS= read -r line || [ -n "$line" ]; do
+		line=$(echo "$line" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
+		if [ "$line" != "" ]; then
+			echo "local-zone: \"$line\" refuse" >>"$tmpfile"
+		fi
 	done <"/etc/config/blocklist"
 
 	cat "/etc/config/unbound.conf" "$tmpfile" >/etc/unbound/unbound.conf
