@@ -35,7 +35,7 @@ sed -i 's/.*unbound-stats//' /etc/crontab
 echo "* * * * *       root    cd /opt/unbound-stats && /opt/unbound-stats/unbound-stats" >> /etc/crontab
 
 # Move unbound configurations
-cp -r blocklists.conf db.rpz unbound.conf /etc/unbound
+cp -r blocklists.conf db.rpz unbound.conf db.192.168.0 /etc/unbound
 
 # Enable all services
 systemctl enable --now nginx cron unbound > /dev/null 2>&1

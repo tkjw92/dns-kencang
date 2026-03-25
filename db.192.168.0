@@ -1,0 +1,9 @@
+$TTL 86400;
+@	IN	SOA	ns1.dns-kencang.	admin.dns-kencang.	(
+						2026032301 ; Serial
+						600        ; Refresh (10 minutes)
+						600        ; Retry (10 minutes)
+						604800     ; Expire (7 days)
+						600        ; Minimum TTL (10 minutes)
+						)
+
