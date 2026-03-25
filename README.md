@@ -4,7 +4,7 @@ DNS-based solution untuk meningkatkan kecepatan akses internet sekaligus mengont
 
 Project ini ditujukan untuk:
 - Mempercepat resolusi DNS
-- Mengontrol akses domain (block / allow)
+- Mengontrol akses domain (block)
 
 ---
 
@@ -38,6 +38,13 @@ git clone https://github.com/tkjw92/dns-kencang.git
 cd dns-kencang
 chmod +x install.sh
 ./install.sh
+```
+
+Listen http://<server address / domain> \
+Default basic auth.
+```bash
+username: admin
+password: admin
 ```
 
 ---
