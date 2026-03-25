@@ -1,0 +1,259 @@
+{
+  "thread0": {
+    "num": {
+      "cachehits": 1433,
+      "cachemiss": 324,
+      "expired": 0,
+      "prefetch": 5,
+      "queries": 1757,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 322
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.164876,
+        "median": 0.0964492
+      }
+    },
+    "requestlist": {
+      "avg": 0.398176,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 2,
+      "max": 8,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "thread1": {
+    "num": {
+      "cachehits": 1451,
+      "cachemiss": 267,
+      "expired": 0,
+      "prefetch": 3,
+      "queries": 1718,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 267
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.137054,
+        "median": 0.0662642
+      }
+    },
+    "requestlist": {
+      "avg": 0.440741,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 0,
+      "max": 12,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "thread2": {
+    "num": {
+      "cachehits": 1499,
+      "cachemiss": 296,
+      "expired": 0,
+      "prefetch": 3,
+      "queries": 1795,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 296
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.169978,
+        "median": 0.0926052
+      }
+    },
+    "requestlist": {
+      "avg": 0.438127,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 0,
+      "max": 9,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "thread3": {
+    "num": {
+      "cachehits": 1492,
+      "cachemiss": 257,
+      "expired": 0,
+      "prefetch": 13,
+      "queries": 1749,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 257
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.15528,
+        "median": 0.0866011
+      }
+    },
+    "requestlist": {
+      "avg": 0.477778,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 0,
+      "max": 10,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "thread4": {
+    "num": {
+      "cachehits": 1490,
+      "cachemiss": 272,
+      "expired": 0,
+      "prefetch": 3,
+      "queries": 1762,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 272
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.146037,
+        "median": 0.0645998
+      }
+    },
+    "requestlist": {
+      "avg": 0.454545,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 0,
+      "max": 10,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "thread5": {
+    "num": {
+      "cachehits": 1555,
+      "cachemiss": 320,
+      "expired": 0,
+      "prefetch": 5,
+      "queries": 1875,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 315
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.171789,
+        "median": 0.0952699
+      }
+    },
+    "requestlist": {
+      "avg": 0.513846,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 5,
+      "max": 11,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "thread6": {
+    "num": {
+      "cachehits": 1506,
+      "cachemiss": 296,
+      "expired": 0,
+      "prefetch": 7,
+      "queries": 1802,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 294
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.17539,
+        "median": 0.0892405
+      }
+    },
+    "requestlist": {
+      "avg": 0.610561,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 2,
+      "max": 11,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "thread7": {
+    "num": {
+      "cachehits": 1612,
+      "cachemiss": 292,
+      "expired": 0,
+      "prefetch": 10,
+      "queries": 1904,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 290
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.179726,
+        "median": 0.0812077
+      }
+    },
+    "requestlist": {
+      "avg": 0.463576,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 2,
+      "max": 14,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  },
+  "time": {
+    "elapsed": 1368.444284,
+    "now": 1774330356.695174,
+    "up": 44338.364607
+  },
+  "total": {
+    "num": {
+      "cachehits": 12038,
+      "cachemiss": 2324,
+      "expired": 0,
+      "prefetch": 49,
+      "queries": 14362,
+      "queries_ip_ratelimited": 0,
+      "recursivereplies": 2313
+    },
+    "recursion": {
+      "time": {
+        "avg": 0.163175,
+        "median": 0.0840297
+      }
+    },
+    "requestlist": {
+      "avg": 0.474926,
+      "current": {
+        "all": 0,
+        "user": 0
+      },
+      "exceeded": 11,
+      "max": 14,
+      "overwritten": 0
+    },
+    "tcpusage": 0
+  }
+}
