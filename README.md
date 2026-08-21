@@ -34,8 +34,10 @@ Project ini ditujukan untuk:
 ## 🔧 Installation
 
 ```bash
+apt install git git-lfs
 git clone https://github.com/tkjw92/dns-kencang.git
 cd dns-kencang
+git lfs pull
 chmod +x install.sh
 ./install.sh
 ```
